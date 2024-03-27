@@ -1,0 +1,13 @@
+package com.example.selfwork;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SelfworkApplication {
+
+  public static void main(String[] args) {
+    SpringApplication.run(SelfworkApplication.class, args);
+  }
+
+}
