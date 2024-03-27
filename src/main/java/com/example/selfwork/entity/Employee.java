@@ -8,8 +8,10 @@ import jakarta.persistence.Id;
 import java.io.Serializable;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
 @Data
+@RequiredArgsConstructor
 @Entity
 public class Employee implements Serializable {
   @Id
